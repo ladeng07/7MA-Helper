@@ -22,13 +22,13 @@
 
 打开快捷方式，可以看到一些需要补充的Token信息
 
-<img src="C:\Users\23129\Desktop\7MA-Helper\assets\image-20241031194101453.png" alt="image-20241031194101453" style="zoom:50%;" />
+<img src="./assets/image-20241031194101453-1730378855095-1.png" alt="image-20241031194101453" style="zoom:50%;" />
 
 这个Token需要我们去7ma微信小程序抓包得到，抓包使用`Stream`，开启`https抓包`模式，然后进7ma页面转一转。可以看到许多`7mate.cn`域名的请求
 
-![4fd8c9b56d189abc9f6af5e41f8c081](C:\Users\23129\Desktop\7MA-Helper\assets\4fd8c9b56d189abc9f6af5e41f8c081.jpg)
+![4fd8c9b56d189abc9f6af5e41f8c081](./assets/4fd8c9b56d189abc9f6af5e41f8c081-1730378861499-4.jpg)
 
-![image-20241031195330165](C:\Users\23129\Desktop\7MA-Helper\assets\image-20241031195330165.png)
+![image-20241031195330165](./assets/image-20241031195330165-1730378865055-6.png)
 
 随便点击一个进去，看请求头中的`Authorization`的值，这就是我们的token，复制下来（不要复制Bearer）粘贴到快捷指令文本框中
 
@@ -38,7 +38,7 @@
 
 填写完以上信息就可以用了运行快捷指令后，选择对应的功能就可以使用了
 
-![image-20241031195611610](C:\Users\23129\Desktop\7MA-Helper\assets\image-20241031195611610.png)
+![image-20241031195611610](./assets/image-20241031195611610-1730378867282-8.png)
 
 ### 开锁
 
